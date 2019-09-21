@@ -1,0 +1,46 @@
+/////////////~~~~~~~~~~~~~~~~~~~~Adding nodes in treetableview~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1...public ObjectProperty<JFXCheckBox> source; /////creating class object
+ 
+2...JFXCheckBox iv = new JFXCheckBox();   
+this.source = new SimpleObjectProperty<>(iv);
+
+
+3...  JFXTreeTableColumn<Product, JFXCheckBox> sectioncol = new JFXTreeTableColumn<>("Source");
+        sectioncol.setPrefWidth(150);
+        sectioncol.setCellValueFactory((TreeTableColumn.CellDataFeatures<Product, JFXCheckBox> x) ->
+        sectioncol.validateValue(x) ? x.getValue().getValue().source : sectioncol.getComputedValue(x));
+
+///////// ADDING BUTTON IN JFX TREE TABLE VIEW~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ JFXTreeTableColumn<Product, String> quantitycol = new JFXTreeTableColumn<>("Available");
+        Callback<TreeTableColumn<Product,String>,TreeTableCell<Product,String>> cellFactory=
+           new Callback<TreeTableColumn<Product,String>,TreeTableCell<Product,String>>(){
+               @Override
+                    public TreeTableCell call(final TreeTableColumn<Product, String> param) {
+                        final TreeTableCell<Product, String> cell = new TreeTableCell<Product, String>() {
+
+                            final JFXButton btn = new JFXButton("Just Do it");
+
+                            @Override
+                            public void updateItem(String item, boolean empty) {
+                                super.updateItem(item, empty);
+                                if (empty) {
+                                    setGraphic(null);
+                                    setText(null);
+                                } else {
+                                    btn.setButtonType(JFXButton.ButtonType.RAISED);
+                                    btn.setOnAction(event -> {
+                                    //Button Action here
+                                    });
+                                    setGraphic(btn);
+                                    setText(null);
+                                }
+                            }
+                        };
+                        return cell;
+                    }
+                };
+         quantitycol.setCellFactory(cellFactory);
+
+////////////~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
