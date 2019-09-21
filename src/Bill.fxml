@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="stack" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BillController">
+   <children>
+      <AnchorPane id="AnchorPane" fx:id="anchor" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #dc143c, #661a33);" styleClass="tree-table-cell">
+         <children>
+            <AnchorPane fx:id="anchor1" layoutX="4.0" layoutY="187.0" prefHeight="438.0" prefWidth="1018.0" styleClass="tree-table-cell" stylesheets="@centertabledata.css">
+               <children>
+                  <JFXTreeTableView layoutX="6.0" layoutY="11.0" prefHeight="584.0" prefWidth="992.0" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="4.0" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="8.0" />
+               </children>
+            </AnchorPane>
+            <Label fx:id="size" layoutX="33.0" layoutY="152.0" prefHeight="32.0" prefWidth="234.0" text="Total Products" textFill="#fff4f4">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+            <JFXTextField fx:id="searchtf" focusColor="WHITE" layoutX="673.0" layoutY="151.0" prefHeight="32.0" prefWidth="211.0" promptText="Search" style="-fx-prompt-text-fill: white; -fx-text-fill: white;" unFocusColor="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font></JFXTextField>
+            <Label fx:id="searchlbl" alignment="CENTER_RIGHT" layoutX="667.0" layoutY="155.0" onMouseClicked="#searchExit" onMouseEntered="#searchEnter" prefHeight="32.0" prefWidth="222.0" textAlignment="RIGHT" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true" rotate="12.5">
+                     <image>
+                        <Image url="@magnifier.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+            <JFXButton layoutX="334.0" layoutY="153.0" onAction="#clearItems" prefHeight="37.0" prefWidth="130.0" text="Clear Items" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font></JFXButton>
+            <Label layoutX="33.0" layoutY="36.0" prefHeight="31.0" prefWidth="169.0" text="Customer Name           : -" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="33.0" layoutY="76.0" prefHeight="31.0" prefWidth="169.0" text="Product Issued Date     : -" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="pending" layoutX="658.0" layoutY="8.0" prefHeight="119.0" prefWidth="359.0" text="45211" textFill="WHITE">
+               <font>
+                  <Font size="67.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="74.0" fitWidth="86.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@rupee.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+            <JFXButton layoutX="889.0" layoutY="153.0" onAction="#selectAll" prefHeight="37.0" prefWidth="108.0" text="Select All" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="33.0" layoutY="115.0" prefHeight="31.0" prefWidth="169.0" text="Total Days                    : -" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="cname" layoutX="217.0" layoutY="36.0" prefHeight="31.0" prefWidth="234.0" text="Vivek Ingole" textFill="WHITE">
+               <font>
+                  <Font name="System Italic" size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="issued_date" layoutX="217.0" layoutY="76.0" prefHeight="31.0" prefWidth="441.0" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="days" layoutX="217.0" layoutY="115.0" prefHeight="31.0" prefWidth="441.0" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="incdec" focusColor="WHITE" layoutX="107.0" layoutY="641.0" prefHeight="32.0" prefWidth="162.0" promptText="Increment / Decrement" style="-fx-prompt-text-fill: white; -fx-text-fill: white;" unFocusColor="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXTextField>
+            <JFXButton layoutX="285.0" layoutY="638.0" onAction="#incrementDecrement" prefHeight="19.0" prefWidth="108.0" text="Inc. / Dec." textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="675.0" layoutY="638.0" onAction="#pay" prefHeight="37.0" prefWidth="108.0" text="Pay" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXButton>
+            <JFXTextField fx:id="payment" focusColor="WHITE" layoutX="496.0" layoutY="641.0" prefHeight="32.0" prefWidth="169.0" promptText="Payment Amount" style="-fx-prompt-text-fill: white; -fx-text-fill: white;" unFocusColor="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXTextField>
+            <JFXButton layoutX="858.0" layoutY="638.0" onAction="#billReceipt" prefHeight="37.0" prefWidth="130.0" text="Bill Reciept" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXButton>
+         </children>
+         <stylesheets>
+            <URL value="@centertabledata.css" />
+            <URL value="@mouseover.css" />
+         </stylesheets>
+      </AnchorPane>
+   </children>
+</StackPane>

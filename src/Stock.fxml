@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="stack" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StockController">
+   <children>
+      <AnchorPane id="AnchorPane" fx:id="anchor" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #dc143c, #661a33);">
+         <children>
+            <AnchorPane fx:id="anchor1" layoutX="17.0" layoutY="278.0" prefHeight="250.0" prefWidth="969.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="16.0">
+               <children>
+                  <JFXTreeTableView layoutX="-9.0" prefHeight="278.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-9.0" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="0.0" />
+               </children>
+               <padding>
+                  <Insets left="8.0" right="-5.0" />
+               </padding>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </AnchorPane>
+            <Label fx:id="size" layoutX="18.0" layoutY="241.0" prefHeight="32.0" prefWidth="152.0" text="Total Records" textFill="#fff4f4">
+               <font>
+                  <Font size="13.0" />
+               </font></Label>
+            <JFXTextField fx:id="searchtf" focusColor="WHITE" layoutX="738.0" layoutY="239.0" prefHeight="32.0" prefWidth="211.0" promptText="Search" style="-fx-prompt-text-fill: white; -fx-text-fill: white;" unFocusColor="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font></JFXTextField>
+            <Label fx:id="searchlbl" alignment="CENTER_RIGHT" layoutX="732.0" layoutY="243.0" onMouseClicked="#searchExit" onMouseEntered="#searchEnter" prefHeight="32.0" prefWidth="222.0" textAlignment="RIGHT" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true" rotate="12.5">
+                     <image>
+                        <Image url="@magnifier.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+            <JFXButton layoutX="4.0" layoutY="4.0" onAction="#back" prefHeight="40.0" prefWidth="159.0" ripplerFill="BLACK" text="Back" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <ImageView fitHeight="31.0" fitWidth="55.0" layoutX="23.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@lessthan.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="385.0" layoutY="51.0" prefHeight="17.0" prefWidth="130.0" text="Customers" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <AnchorPane fx:id="anchor11" layoutX="11.0" layoutY="96.0" prefHeight="136.0" prefWidth="973.0">
+               <padding>
+                  <Insets left="8.0" />
+               </padding>
+               <children>
+                  <JFXTreeTableView prefHeight="203.0" prefWidth="980.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-8.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </AnchorPane>
+            <Label fx:id="size1" layoutX="14.0" layoutY="57.0" prefHeight="32.0" prefWidth="152.0" text="Total Records" textFill="#fff4f4">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="searchtf1" focusColor="WHITE" layoutX="732.0" layoutY="47.0" prefHeight="32.0" prefWidth="211.0" promptText="Search" style="-fx-prompt-text-fill: white; -fx-text-fill: white;" unFocusColor="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </JFXTextField>
+            <Label fx:id="searchlbl1" alignment="CENTER_RIGHT" layoutX="726.0" layoutY="51.0" onMouseClicked="#searchExit" onMouseEntered="#searchEnter" prefHeight="32.0" prefWidth="222.0" textAlignment="RIGHT" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true" rotate="12.5">
+                     <image>
+                        <Image url="@magnifier.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+            <Label layoutX="398.0" layoutY="249.0" prefHeight="17.0" prefWidth="130.0" text="Products" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Pane layoutX="14.0" layoutY="542.0" prefHeight="147.0" prefWidth="257.0" style="-fx-background-color: white;">
+               <children>
+                  <JFXTextField fx:id="pqty" labelFloat="true" layoutX="152.0" layoutY="61.0" prefHeight="25.0" prefWidth="92.0" promptText="Quantity" />
+                  <Label fx:id="ptotal" layoutX="39.0" layoutY="74.0" prefHeight="40.0" prefWidth="99.0" text="0" textFill="#ff0101">
+                     <font>
+                        <Font name="System Bold Italic" size="24.0" />
+                     </font>
+                  </Label>
+                  <JFXButton buttonType="RAISED" layoutX="152.0" layoutY="104.0" onAction="#addProduct" prefHeight="32.0" prefWidth="92.0" stylesheets="@mouseover.css" text="Add">
+                     <font>
+                        <Font size="13.0" />
+                     </font></JFXButton>
+                  <Label fx:id="pname" layoutX="13.0" layoutY="8.0" prefHeight="57.0" prefWidth="231.0" text="Product Name" wrapText="true">
+                     <font>
+                        <Font name="System Bold Italic" size="16.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="26.0" fitWidth="31.0" layoutX="10.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+                     <image>
+                        <Image url="@rupee%20red.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Pane>
+            <JFXButton buttonType="RAISED" layoutX="210.0" layoutY="52.0" onAction="#addNewCustomer" prefHeight="32.0" prefWidth="92.0" stylesheets="@mouseover.css" text="Add New" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font></JFXButton>
+            <Pane layoutX="658.0" layoutY="542.0" prefHeight="147.0" prefWidth="326.0" style="-fx-background-color: white;">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" text="Name : " />
+                  <Label layoutX="217.0" layoutY="13.0" prefHeight="19.0" prefWidth="31.0" text="Date :" />
+                  <JFXButton buttonType="RAISED" layoutX="154.0" layoutY="107.0" onAction="#reset" prefHeight="32.0" prefWidth="71.0" stylesheets="@mouseover.css" text="Reset">
+                     <font>
+                        <Font size="13.0" />
+                     </font></JFXButton>
+                  <JFXButton buttonType="RAISED" layoutX="238.0" layoutY="107.0" onAction="#done" prefHeight="32.0" prefWidth="71.0" stylesheets="@mouseover.css" text="Done">
+                     <font>
+                        <Font size="13.0" />
+                     </font></JFXButton>
+                  <Label fx:id="cname" layoutX="58.0" layoutY="13.0" prefHeight="17.0" prefWidth="264.0" text="Customer Name">
+                     <font>
+                        <Font name="System Bold Italic" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="date" layoutX="252.0" layoutY="12.0" prefHeight="21.0" prefWidth="71.0" text="2019/04/05">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="217.0" layoutY="35.0" prefHeight="19.0" prefWidth="47.0" text="Time :" />
+                  <Label fx:id="time" layoutX="254.0" layoutY="34.0" prefHeight="21.0" prefWidth="61.0" text="13:12">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <JFXTextField fx:id="advance" labelFloat="true" layoutX="216.0" layoutY="74.0" prefHeight="25.0" prefWidth="99.0" promptText="Advance" text="0" />
+                  <Label fx:id="total" layoutX="45.0" layoutY="100.0" prefHeight="32.0" prefWidth="123.0" text="0" textFill="#309e53">
+                     <font>
+                        <Font name="System Bold Italic" size="31.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="date1" layoutX="9.0" layoutY="79.0" prefHeight="21.0" prefWidth="92.0" text="Total Bill" textFill="#309e53">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <JFXTextField fx:id="pdiscount" labelFloat="true" layoutX="10.0" layoutY="45.0" prefHeight="25.0" prefWidth="79.0" promptText="discount" />
+                  <JFXButton buttonType="RAISED" layoutX="101.0" layoutY="39.0" onAction="#deductDiscount" prefHeight="31.0" prefWidth="79.0" stylesheets="@mouseover.css" text="Deduct">
+                     <font>
+                        <Font size="13.0" />
+                     </font></JFXButton>
+                  <ImageView fitHeight="31.0" fitWidth="47.0" layoutX="10.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+                     <image>
+                        <Image url="@rupee%20green.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Pane>
+            <Pane layoutX="279.0" layoutY="542.0" prefHeight="147.0" prefWidth="368.0" style="-fx-background-color: white;">
+               <children>
+                  <JFXListView fx:id="plist" layoutY="34.0" prefHeight="114.0" prefWidth="368.0" />
+                  <JFXButton buttonType="RAISED" layoutX="5.0" layoutY="1.0" onAction="#cancleProduct" prefHeight="32.0" prefWidth="99.0" stylesheets="@mouseover.css" text="Cancle">
+                     <font>
+                        <Font size="13.0" />
+                     </font></JFXButton>
+                  <Label layoutX="196.0" layoutY="9.0" prefHeight="17.0" prefWidth="92.0" text="Total Products  :  " />
+                  <Label fx:id="pcount" layoutX="295.0" layoutY="9.0" text="0">
+                     <font>
+                        <Font name="System Bold Italic" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Pane>
+            <JFXButton buttonType="RAISED" layoutX="555.0" layoutY="48.0" onAction="#payment" prefHeight="32.0" prefWidth="92.0" stylesheets="@mouseover.css" text="Payment" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </JFXButton>
+            <Pane fx:id="add_pane" disable="true" layoutX="10.0" layoutY="60.0" opacity="0.0" prefHeight="123.0" prefWidth="973.0" style="-fx-background-color: white;">
+               <effect>
+                  <DropShadow height="61.03" offsetY="5.0" radius="31.1275" width="65.48" />
+               </effect>
+               <children>
+                  <JFXButton buttonType="RAISED" layoutX="720.0" layoutY="58.0" onAction="#add_cancle" prefHeight="32.0" prefWidth="92.0" stylesheets="@mouseover.css" text="Cancle" textFill="WHITE" />
+                  <JFXButton buttonType="RAISED" layoutX="841.0" layoutY="58.0" onAction="#add_addCustomer" prefHeight="32.0" prefWidth="92.0" stylesheets="@mouseover.css" text="Add" textFill="WHITE" />
+                  <Label layoutX="36.0" layoutY="21.0" text="Add NewCustomer">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <JFXTextField fx:id="add_fname" focusColor="RED" labelFloat="true" layoutX="39.0" layoutY="62.0" promptText="First Name" />
+                  <JFXTextField fx:id="add_lname" focusColor="RED" labelFloat="true" layoutX="197.0" layoutY="62.0" promptText="Last Name" />
+                  <JFXTextField fx:id="add_phone" focusColor="RED" labelFloat="true" layoutX="360.0" layoutY="62.0" promptText="Phone" />
+                  <JFXTextField fx:id="add_addr" focusColor="RED" labelFloat="true" layoutX="512.0" layoutY="62.0" prefHeight="25.0" prefWidth="135.0" promptText="Address" />
+               </children>
+            </Pane>
+         </children>
+         <styleClass>
+            <String fx:value="tree-table-cell" />
+            <String fx:value="table-row-cell" />
+            <String fx:value="table-row" />
+            <String fx:value="button" />
+         </styleClass>
+         <stylesheets>
+            <URL value="@centertabledata.css" />
+            <URL value="@mouseover_1.css" />
+         </stylesheets>
+      </AnchorPane>
+   </children>
+</StackPane>

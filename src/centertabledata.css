@@ -1,0 +1,4 @@
+.tree-table-cell{
+    -fx-alignment: center;
+    -fx-cell-size: 20px;
+}

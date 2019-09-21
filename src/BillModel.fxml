@@ -1,0 +1,1272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<StackPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BillModelController">
+   <children>
+      <AnchorPane fx:id="anchor2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="740.0" prefWidth="601.0">
+         <children>
+            <AnchorPane fx:id="idpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="785.0" prefWidth="597.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <ImageView fx:id="logo2" fitHeight="269.0" fitWidth="312.0" layoutX="164.0" layoutY="232.0" opacity="0.17" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@trustol.png" />
+                     </image>
+                  </ImageView>
+                  <Text fx:id="title" fill="#1e28bc" layoutX="104.0" layoutY="44.0" smooth="false" strokeType="OUTSIDE" strokeWidth="0.0" text="NEW MAHARASHTRA MOTORS" wrappingWidth="268.9999962747097">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Line endX="-0.8284270763397217" endY="680.0" stroke="#1f2472" strokeWidth="2.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0" />
+                  <Line endY="270.0" layoutX="585.0" layoutY="418.0" startY="-407.0" stroke="#1f2472" strokeWidth="2.0" />
+                  <Line endX="574.0" endY="267.0" layoutX="13.0" layoutY="422.0" startY="267.0" stroke="#1f2472" strokeWidth="2.0" AnchorPane.leftAnchor="12.0" AnchorPane.rightAnchor="23.0" />
+                  <Line endX="515.4142456054688" endY="292.1299133300781" layoutX="17.0" layoutY="-290.0" startX="-57.585777282714844" startY="292.1299133300781" stroke="#1f2472" strokeWidth="2.0" AnchorPane.bottomAnchor="689.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="162.0" AnchorPane.topAnchor="9.0" />
+                  <ImageView fx:id="logo1" fitHeight="67.0" fitWidth="91.0" layoutX="24.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@trustol.png" />
+                     </image>
+                  </ImageView>
+                  <Line endX="475.0" layoutX="111.0" layoutY="110.0" startX="-100.0" stroke="#1f2472" strokeWidth="2.0" AnchorPane.leftAnchor="10.5" AnchorPane.rightAnchor="13.5" />
+                  <Line endX="475.0" layoutX="112.0" layoutY="140.0" startX="-100.0" stroke="#1f2472" strokeWidth="2.0" />
+                  <VBox fx:id="vbox" layoutX="13.0" layoutY="141.0">
+                     <children>
+                        <VBox prefHeight="0.0" prefWidth="573.0">
+                           <children>
+                              <HBox prefHeight="24.0" prefWidth="573.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="55.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="10.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="57.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="216.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="198.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="372.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="113.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                 </children>
+                              </HBox>
+                              <Line endX="456.0" endY="1.0857572555541992" startX="1027.378662109375" startY="1.0857717990875244" stroke="#1f2472" />
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="10.0" prefHeight="0.0" prefWidth="573.0">
+                           <children>
+                              <HBox prefHeight="24.0" prefWidth="573.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="55.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="10.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="57.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="216.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="198.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="372.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="113.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                 </children>
+                              </HBox>
+                              <Line endX="456.0" endY="1.0857572555541992" startX="1027.378662109375" startY="1.0857717990875244" stroke="#1f2472" />
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="32.0" prefHeight="0.0" prefWidth="573.0">
+                           <children>
+                              <HBox prefHeight="24.0" prefWidth="573.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="55.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="10.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="57.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="216.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="198.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="372.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="113.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                 </children>
+                              </HBox>
+                              <Line endX="456.0" endY="1.0857572555541992" startX="1027.378662109375" startY="1.0857717990875244" stroke="#1f2472" />
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="54.0" prefHeight="0.0" prefWidth="573.0">
+                           <children>
+                              <HBox prefHeight="24.0" prefWidth="573.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="55.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="10.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="57.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="216.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="198.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="372.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="113.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                 </children>
+                              </HBox>
+                              <Line endX="456.0" endY="1.0857572555541992" startX="1027.378662109375" startY="1.0857717990875244" stroke="#1f2472" />
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="76.0" prefHeight="0.0" prefWidth="573.0">
+                           <children>
+                              <HBox prefHeight="24.0" prefWidth="573.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="55.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="10.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="57.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="216.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="198.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="372.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="113.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                 </children>
+                              </HBox>
+                              <Line endX="456.0" endY="1.0857572555541992" startX="1027.378662109375" startY="1.0857717990875244" stroke="#1f2472" />
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="98.0" prefHeight="0.0" prefWidth="573.0">
+                           <children>
+                              <HBox prefHeight="24.0" prefWidth="573.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="55.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="10.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="57.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="216.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="198.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="372.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="113.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                 </children>
+                              </HBox>
+                              <Line endX="456.0" endY="1.0857572555541992" startX="1027.378662109375" startY="1.0857717990875244" stroke="#1f2472" />
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="120.0" prefHeight="0.0" prefWidth="573.0">
+                           <children>
+                              <HBox prefHeight="24.0" prefWidth="573.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="55.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="10.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="57.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="216.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="198.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="372.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="113.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                 </children>
+                              </HBox>
+                              <Line endX="456.0" endY="1.0857572555541992" startX="1027.378662109375" startY="1.0857717990875244" stroke="#1f2472" />
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="142.0" prefHeight="0.0" prefWidth="573.0">
+                           <children>
+                              <HBox prefHeight="24.0" prefWidth="573.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="55.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="10.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="57.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="216.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="198.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="372.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="113.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                 </children>
+                              </HBox>
+                              <Line endX="456.0" endY="1.0857572555541992" startX="1027.378662109375" startY="1.0857717990875244" stroke="#1f2472" />
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="164.0" prefHeight="0.0" prefWidth="573.0">
+                           <children>
+                              <HBox prefHeight="24.0" prefWidth="573.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="55.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="10.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="57.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="216.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="198.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="372.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="113.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                 </children>
+                              </HBox>
+                              <Line endX="456.0" endY="1.0857572555541992" startX="1027.378662109375" startY="1.0857717990875244" stroke="#1f2472" />
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="186.0" prefHeight="0.0" prefWidth="573.0">
+                           <children>
+                              <HBox prefHeight="24.0" prefWidth="573.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="55.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="10.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="57.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="216.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="198.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="372.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="113.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                 </children>
+                              </HBox>
+                              <Line endX="456.0" endY="1.0857572555541992" startX="1027.378662109375" startY="1.0857717990875244" stroke="#1f2472" />
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="208.0" prefHeight="0.0" prefWidth="573.0">
+                           <children>
+                              <HBox prefHeight="24.0" prefWidth="573.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="55.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="10.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="57.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="216.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="198.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="372.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="113.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                 </children>
+                              </HBox>
+                              <Line endX="456.0" endY="1.0857572555541992" startX="1027.378662109375" startY="1.0857717990875244" stroke="#1f2472" />
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="230.0" prefHeight="0.0" prefWidth="573.0">
+                           <children>
+                              <HBox prefHeight="24.0" prefWidth="573.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="55.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="10.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="57.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="216.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="198.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="372.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="113.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                 </children>
+                              </HBox>
+                              <Line endX="456.0" endY="1.0857572555541992" startX="1027.378662109375" startY="1.0857717990875244" stroke="#1f2472" />
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="252.0" prefHeight="0.0" prefWidth="573.0">
+                           <children>
+                              <HBox prefHeight="24.0" prefWidth="573.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="55.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="10.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="57.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="216.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="198.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="372.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="113.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                 </children>
+                              </HBox>
+                              <Line endX="456.0" endY="1.0857572555541992" startX="1027.378662109375" startY="1.0857717990875244" stroke="#1f2472" />
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="274.0" prefHeight="0.0" prefWidth="573.0">
+                           <children>
+                              <HBox prefHeight="24.0" prefWidth="573.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="55.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="10.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="57.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="216.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="198.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="372.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="113.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                 </children>
+                              </HBox>
+                              <Line endX="456.0" endY="1.0857572555541992" startX="1027.378662109375" startY="1.0857717990875244" stroke="#1f2472" />
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="296.0" prefHeight="0.0" prefWidth="573.0">
+                           <children>
+                              <HBox prefHeight="24.0" prefWidth="573.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="55.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="10.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="57.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="216.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="198.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="372.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="113.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                 </children>
+                              </HBox>
+                              <Line endX="456.0" endY="1.0857572555541992" startX="1027.378662109375" startY="1.0857717990875244" stroke="#1f2472" />
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="318.0" prefHeight="0.0" prefWidth="573.0">
+                           <children>
+                              <HBox prefHeight="24.0" prefWidth="573.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="55.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="10.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="57.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="216.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="198.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="372.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="113.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                 </children>
+                              </HBox>
+                              <Line endX="456.0" endY="1.0857572555541992" startX="1027.378662109375" startY="1.0857717990875244" stroke="#1f2472" />
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="340.0" prefHeight="0.0" prefWidth="573.0">
+                           <children>
+                              <HBox prefHeight="24.0" prefWidth="573.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="55.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="10.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="57.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="216.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="198.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="372.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="113.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                 </children>
+                              </HBox>
+                              <Line endX="456.0" endY="1.0857572555541992" startX="1027.378662109375" startY="1.0857717990875244" stroke="#1f2472" />
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="362.0" prefHeight="0.0" prefWidth="573.0">
+                           <children>
+                              <HBox prefHeight="24.0" prefWidth="573.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="55.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="10.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="57.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="216.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="198.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="372.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="113.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                 </children>
+                              </HBox>
+                              <Line endX="456.0" endY="1.0857572555541992" startX="1027.378662109375" startY="1.0857717990875244" stroke="#1f2472" />
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="384.0" prefHeight="0.0" prefWidth="573.0">
+                           <children>
+                              <HBox prefHeight="24.0" prefWidth="573.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="55.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="10.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="57.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="216.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="198.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="372.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="113.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                 </children>
+                              </HBox>
+                              <Line endX="456.0" endY="1.0857572555541992" startX="1027.378662109375" startY="1.0857717990875244" stroke="#1f2472" />
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="406.0" prefHeight="0.0" prefWidth="573.0">
+                           <children>
+                              <HBox prefHeight="24.0" prefWidth="573.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="55.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="10.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="57.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="216.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="198.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="372.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="113.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                 </children>
+                              </HBox>
+                              <Line endX="456.0" endY="1.0857572555541992" startX="1027.378662109375" startY="1.0857717990875244" stroke="#1f2472" />
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="428.0" prefHeight="0.0" prefWidth="573.0">
+                           <children>
+                              <HBox prefHeight="24.0" prefWidth="573.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="55.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="10.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="57.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="216.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="198.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="372.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="113.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                 </children>
+                              </HBox>
+                              <Line endX="456.0" endY="1.0857572555541992" startX="1027.378662109375" startY="1.0857717990875244" stroke="#1f2472" />
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="450.0" prefHeight="0.0" prefWidth="573.0">
+                           <children>
+                              <HBox prefHeight="24.0" prefWidth="573.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="55.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="10.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="57.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="216.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="198.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="372.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="113.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                 </children>
+                              </HBox>
+                              <Line endX="456.0" endY="1.0857572555541992" startX="1027.378662109375" startY="1.0857717990875244" stroke="#1f2472" />
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="472.0" prefHeight="0.0" prefWidth="573.0">
+                           <children>
+                              <HBox prefHeight="24.0" prefWidth="573.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="55.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="10.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="57.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="216.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="198.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Text layoutX="372.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="113.13671646907278">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets top="2.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                 </children>
+                              </HBox>
+                              <Line endX="456.0" endY="1.0857572555541992" startX="1027.378662109375" startY="1.0857717990875244" stroke="#1f2472" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </VBox>
+                  <HBox layoutX="16.0" layoutY="111.0" prefHeight="30.0" prefWidth="568.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Qty." textAlignment="CENTER" wrappingWidth="52.13671646907278">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets top="5.0" />
+                           </HBox.margin>
+                        </Text>
+                        <Text layoutX="10.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="id" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets top="5.0" />
+                           </HBox.margin>
+                        </Text>
+                        <Text layoutX="57.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="name" textAlignment="CENTER" wrappingWidth="216.13671646907278">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets top="5.0" />
+                           </HBox.margin>
+                        </Text>
+                        <Text layoutX="198.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rate" textAlignment="CENTER" wrappingWidth="91.13671646907278">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets top="5.0" />
+                           </HBox.margin>
+                        </Text>
+                        <Text layoutX="372.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" textAlignment="CENTER" wrappingWidth="113.13671646907278">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets top="5.0" />
+                           </HBox.margin>
+                        </Text>
+                     </children>
+                  </HBox>
+                  <Text fx:id="billno" layoutX="435.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bill no." wrappingWidth="148.1367074996233">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="date" layoutX="435.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date" wrappingWidth="148.13670347630978">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="name" layoutX="435.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Retailer name" wrappingWidth="148.13670347630978">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="380.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bill no. :">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="380.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date    :">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="380.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name  :">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <Line endX="475.0" layoutX="110.0" layoutY="646.0" startX="-100.0" stroke="#1f2472" strokeWidth="2.0" />
+                  <Text layoutX="50.0" layoutY="674.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Signature" wrappingWidth="82.13672682642937" />
+                  <Text layoutX="355.0" layoutY="674.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total amount  :" wrappingWidth="102.00000181794167" />
+                  <Text fx:id="total" layoutX="461.0" layoutY="674.0" strokeType="OUTSIDE" strokeWidth="0.0" text="123000012" wrappingWidth="119.00000540912151">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <JFXButton layoutX="417.0" layoutY="695.0" onAction="#printImage" prefHeight="31.0" prefWidth="119.0" text="Print" />
+                  <JFXButton fx:id="closebtn" layoutX="64.0" layoutY="695.0" prefHeight="31.0" prefWidth="119.0" text="Cancle" />
+                  <Text fx:id="subtitle" fill="#1e28bc" layoutX="104.0" layoutY="62.0" smooth="false" strokeType="OUTSIDE" strokeWidth="0.0" text="Trimurti Complex Kadlasnaka Jath Road, Sangola,                                                     Mr. Deepak Miglani Mo. 9373794949" wrappingWidth="243.9999962747097">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <Line endX="-187.0" endY="567.0" layoutX="254.0" layoutY="79.0" startX="-187.0" startY="32.0" stroke="#1f2472" />
+                  <Line endX="-105.0" endY="556.0" layoutX="264.0" layoutY="89.0" startX="-105.0" startY="20.0" stroke="#1f2472" />
+                  <Line endX="102.0" endY="546.0" layoutX="274.0" layoutY="99.0" startX="102.0" startY="10.0" stroke="#1f2472" />
+                  <Line endX="185.0" endY="536.0" layoutX="284.0" layoutY="109.0" startX="185.0" startY="2.0" stroke="#1f2472" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

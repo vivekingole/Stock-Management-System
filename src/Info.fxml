@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<StackPane prefHeight="534.0" prefWidth="517.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="InfoController">
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="534.0" prefWidth="508.0" styleClass="tab-pane" stylesheets="@hiddentab.css">
+         <children>
+            <JFXButton fx:id="closebtn" layoutX="482.0" layoutY="2.0" prefHeight="20.0" prefWidth="22.0" text=" ">
+               <graphic>
+                  <ImageView fitHeight="36.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@close.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <Label layoutX="183.0" layoutY="1.0" prefHeight="45.0" prefWidth="152.0" text="Contact us">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Circle fx:id="img1" fill="#f8f8f8" layoutX="257.0" layoutY="119.0" radius="63.0" stroke="#34b928" strokeType="INSIDE" strokeWidth="0.0" />
+            <Circle fill="#1f93ff00" layoutX="257.0" layoutY="119.0" radius="71.0" stroke="#34b928" strokeType="INSIDE" strokeWidth="2.0" />
+            <Label layoutX="212.0" layoutY="206.0" prefHeight="26.0" prefWidth="106.0" text="Vivek Ingole" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="174.0" layoutY="239.0" prefHeight="26.0" prefWidth="209.0" text="vivekingole@engineer.com" wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="108.0" layoutY="277.0" prefHeight="26.0" prefWidth="383.0" text="College     :      Sangola College, Sangola" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="108.0" layoutY="309.0" prefHeight="26.0" prefWidth="84.0" text="Role          :" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="204.0" layoutY="309.0" prefHeight="53.0" prefWidth="244.0" text="Analyazer, Developer, Designer, Coder, Tester." textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="108.0" layoutY="366.0" prefHeight="26.0" prefWidth="92.0" text="Blogsopt   : " textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Hyperlink fx:id="sitelink" layoutX="207.0" layoutY="362.0" onAction="#visiteSite" prefHeight="34.0" prefWidth="249.0" text="coolitknowledge.blogspot.com">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Hyperlink>
+            <Label layoutX="108.0" layoutY="402.0" prefHeight="26.0" prefWidth="92.0" text="Address    :" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="204.0" layoutY="402.0" prefHeight="53.0" prefWidth="244.0" text="A/p - kadlas, Tal - Sangola, Dist - Solapur, 413309" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="link1" layoutX="88.0" layoutY="473.0" onAction="#visiteSocialSite" prefHeight="53.0" prefWidth="21.0" text=" ">
+               <graphic>
+                  <ImageView fitHeight="43.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@fb.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="link2" layoutX="158.0" layoutY="473.0" onAction="#visiteSocialSite" prefHeight="53.0" prefWidth="21.0" text=" ">
+               <graphic>
+                  <ImageView fitHeight="51.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@linkedin.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="link3" layoutX="242.0" layoutY="473.0" onAction="#visiteSocialSite" prefHeight="53.0" prefWidth="21.0" text=" ">
+               <graphic>
+                  <ImageView fitHeight="44.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@instra.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="link4" layoutX="321.0" layoutY="473.0" onAction="#visiteSocialSite" prefHeight="53.0" prefWidth="21.0" text=" ">
+               <graphic>
+                  <ImageView fitHeight="46.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@twitter.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="link5" layoutX="406.0" layoutY="473.0" onAction="#visiteSocialSite" prefHeight="53.0" prefWidth="21.0" text=" ">
+               <graphic>
+                  <ImageView fitHeight="43.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@pinterest.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

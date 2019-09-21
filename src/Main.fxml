@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="stack" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #dc143c, #661a33);" stylesheets="@mouseover.css">
+         <children>
+            <Label fx:id="title" alignment="CENTER" layoutX="-1.0" layoutY="38.0" prefHeight="75.0" prefWidth="1000.0" text="Nathbaba Ketaras" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Label>
+            <JFXButton buttonType="RAISED" layoutX="561.0" layoutY="391.0" onAction="#History" prefHeight="76.0" prefWidth="156.0" ripplerFill="RED" text="Stock History" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="561.0" layoutY="512.0" onAction="#Log_Out" prefHeight="76.0" prefWidth="156.0" ripplerFill="RED" text="Log Out" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="263.0" layoutY="140.0" onAction="#Add_Product" prefHeight="76.0" prefWidth="156.0" ripplerFill="RED" text="Product Master" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="554.0" layoutY="266.0" onAction="#Stock" prefHeight="76.0" prefWidth="156.0" ripplerFill="RED" text="Manage Stock" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="263.0" layoutY="266.0" onAction="#emplpoyeePresenty" prefHeight="76.0" prefWidth="156.0" ripplerFill="RED" text="Employee Presenty" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="256.0" layoutY="391.0" onAction="#billHistory" prefHeight="76.0" prefWidth="156.0" ripplerFill="RED" text="Return Product" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="254.0" layoutY="512.0" onAction="#bills" prefHeight="76.0" prefWidth="156.0" ripplerFill="RED" text="Reports" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="547.0" layoutY="140.0" onAction="#Add_employee" prefHeight="76.0" prefWidth="156.0" ripplerFill="RED" text="Employee Master" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

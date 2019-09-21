@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="stack" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BillHistoryController">
+   <children>
+      <AnchorPane id="AnchorPane" fx:id="anchor" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: linear-gradient(from 10% 10% to 100% 100%, #b574ff, #350443);" styleClass="tree-table-cell" stylesheets="@centertabledata.css">
+         <children>
+            <AnchorPane fx:id="anchor1" layoutX="-1.0" layoutY="106.0" prefHeight="595.0" prefWidth="1000.0" styleClass="tree-table-cell" stylesheets="@../css/centertabledata.css">
+               <children>
+                  <JFXTreeTableView fx:id="table" layoutX="6.0" layoutY="11.0" prefHeight="584.0" prefWidth="992.0" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="4.0" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="8.0" />
+               </children>
+            </AnchorPane>
+            <Label fx:id="size" layoutX="27.0" layoutY="76.0" prefHeight="32.0" prefWidth="234.0" text="Total Records" textFill="#fff4f4">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+            <JFXTextField fx:id="searchtf" focusColor="WHITE" layoutX="712.0" layoutY="51.0" prefHeight="32.0" prefWidth="211.0" promptText="Search" style="-fx-prompt-text-fill: white; -fx-text-fill: white;" unFocusColor="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font></JFXTextField>
+            <Label fx:id="searchlbl" alignment="CENTER_RIGHT" layoutX="706.0" layoutY="55.0" onMouseClicked="#searchExit" onMouseEntered="#searchEnter" prefHeight="32.0" prefWidth="222.0" textAlignment="RIGHT" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true" rotate="12.5">
+                     <image>
+                        <Image url="@magnifier.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+            <JFXButton layoutX="399.0" layoutY="53.0" onAction="#delete" prefHeight="37.0" prefWidth="100.0" text="Clear" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font></JFXButton>
+            <JFXButton layoutX="14.0" layoutY="14.0" onAction="#back" prefHeight="51.0" prefWidth="259.0" ripplerFill="BLACK" text="  Billing History" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <ImageView fitHeight="31.0" fitWidth="55.0" layoutX="24.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@lessthan.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
